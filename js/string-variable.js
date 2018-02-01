@@ -1,0 +1,19 @@
+//ceate variables to hold the name and note text
+var username;
+var message;
+
+//Assign values to these variables
+username = 'Molly' ;
+message = 'See our upcoming range' ;
+
+//get the element with an id of name
+var elName = document.getElementById('name');
+
+//replace the content of this element
+elName.textContent = username;
+
+//get the element with an id of note
+var elNote = document.getElementById('note');
+
+//Replace the content of this element
+elNote.textContent = message;
